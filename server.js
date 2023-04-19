@@ -10,7 +10,7 @@ require('dotenv').config()
 });*/
 
 const connection = mysql.createConnection(process.env.DATABASE_URL)
-
+//
 var app = express()
 app.use(cors())
 app.use(express.json())
